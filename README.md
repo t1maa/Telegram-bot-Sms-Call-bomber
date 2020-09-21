@@ -68,7 +68,7 @@ npm install telegraf --save
 npm install request --save
 ```
 4. В телеграме создаем бота, с помощью BotFather
-5. В поле "your telegram-bot token", вводите токен вашего бота
+5. В поле "your telegram-bot token", вводите токен вашего бота в кавычках!
 6. Запускаем сам бот, команда: node app.js 
 7. Нажимаем на /start. Бот ответит "Ooops you don't have permission, your telegram id: тут ваш telegram-id"
 8. Останавливаем бота. В файле \app.js вместо 'Admin Telegram-id' -> пишем ваш telegram-id. В массив access_list в файле scripts\keyboards_text_acl.js добавляем ваш telegram-id. Везде добавляем без кавычек (так-как тип данных должен быть number)
