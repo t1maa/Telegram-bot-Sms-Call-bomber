@@ -66,9 +66,9 @@ npm install telegraf --save
 npm install request --save
 ```
 4. В телеграме создаем бота, с помощью BotFather.
-5. В поле файле app.js вместо "your telegram-bot token" вводите токен вашего бота в кавычках!
-6. Запускаем сам бот, команда: node app.js.
+5. В файле app.js вместо "your telegram-bot token" введите токен вашего бота в кавычках!
+6. Запускаем скрипт, командой: node app.js.
 7. Нажимаем на /start. Бот ответит "Ooops you don't have permission, your telegram id: тут ваш telegram-id".
-8. Останавливаем бота. В файле \app.js вместо 'Admin Telegram-id' -> пишем ваш telegram-id. В массив access_list в файле scripts\keyboards_text_acl.js добавляем ваш telegram-id. Везде добавляем без кавычек (так как тип данных должен быть number). И на этом все!
+8. Останавливаем работу скрипта. В файле \app.js вместо 'Admin Telegram-id' -> пишем ваш telegram-id. В массив access_list в файле scripts\keyboards_text_acl.js добавляем ваш telegram-id. Везде добавляем без кавычек (так как тип данных должен быть number). И на этом все!
 
 ### У бота есть 53 сервиса, осуществляющих отправку смс и 5 сервисов, осуществляющих дозвон!
