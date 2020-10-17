@@ -12,7 +12,7 @@
 4. Test_flood_scene: для тестирования (запускает flood с 3 сервисов, команда /tima_test).
 
 ### Контроль доступа и предоставление доступа
-Контроль доступа реализован с помощью проверки наличия telegram-id в массиве access_list, в файле scripts\keyboards_text_acl.js.
+Контроль доступа реализован с помощью проверки наличия telegram-id в массиве access_list в файле scripts\keyboards_text_acl.js.
 Пример:
 ```
 bot.start((ctx) => {
