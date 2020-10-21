@@ -59,14 +59,14 @@ bot.command("tima_best", (ctx) => {
 ## Установка и настройка
 1. Скачиваем код.
 2. Устанавливаем Node.js (<a href="https://nodejs.org" target="_blank">Windows</a>, <a href="https://github.com/nodesource/distributions/blob/master/README.md" target="_blank">Linux</a>).
-3. Переходим в файл бота, и вводим данные команды:
+3. Переходим в каталог, куда скачали код, и вводим данные команды:
 ```
 npm init -y
 npm install telegraf --save
 npm install request --save
 ```
 4. В телеграме создаем бота, с помощью BotFather.
-5. В файле app.js вместо "your telegram-bot token" введите токен вашего бота в кавычках!
+5. В файле app.js вместо "your telegram-bot token" вводим токен вашего бота в кавычках!
 6. Запускаем скрипт, командой: node app.js.
 7. Нажимаем на /start. Бот ответит "Ooops you don't have permission, your telegram id: тут ваш telegram-id".
 8. Останавливаем работу скрипта. В файле \app.js вместо 'Admin Telegram-id' -> пишем ваш telegram-id. В массив access_list в файле scripts\keyboards_text_acl.js добавляем ваш telegram-id. Везде добавляем без кавычек (так как тип данных должен быть number). И на этом все!
